@@ -1,0 +1,33 @@
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "username": "tanvir",
+  "password": "1234"
+}
+
+###
+
+GET http://localhost:8080/api/get-all-locations
+
+###
+
+GET http://localhost:8080/api/get-user-tags?uid=1
+
+###
+
+GET http://localhost:8080/api/get-user-prefs?uid=1
+
+###
+
+GET http://localhost:8080/api/get-post-details?pid=1
+
+###
+
+GET http://localhost:8080/api/get-convo?uid=1
+
+###
+
+GET http://localhost:8080/api/getByLocation?location=3
